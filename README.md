@@ -22,29 +22,42 @@ This project demonstrates four different sorting algorithms implemented in C#. I
    ```bash
    git clone https://github.com/ClanyX/Sorting_Methods.git
    cd Sorting_Methods
-Build and Run:
 
-If you have the .NET SDK installed, you can build and run the project using:
+2. **Build and Run:**
 
-bash
-Zkopírovat
-Upravit
-dotnet build
-dotnet run
-Alternatively, open the Sorting.sln file with Visual Studio and run the project from there.
+   If you have the .NET SDK installed, you can build and run the project using:
 
-📂 Project Structure
-Program.cs – Main entry point
+   ```bash
+   dotnet build
+   dotnet run
+   ```
 
-Sorting.csproj – Project configuration
+   Alternatively, open the Sorting.sln file in Visual Studio and run the project from there.
 
-Sorting.sln – Solution file for Visual Studio
+## 📂 Project Structure
 
-✅ Project Status
-The project is functional and ready to use. Currently, it doesn't include unit tests or advanced features.
+```bash
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Sorting-Methods/
+├── Program.cs         # Main program logic and sorting demos
+├── Sorting.csproj     # Project file
+├── Sorting.sln        # Visual Studio solution file
+```
 
-👤 Author
-ClanyX
+## 📈 Example Output
+
+When running the program, it demonstrates how each sorting algorithm works on sample arrays. You'll see the arrays before and after sorting, as well as the sorting steps printed to the console.
+
+## ✅ Project Status
+
+- ✔ Fully working  
+- ✘ No unit tests yet  
+- ✘ Console-based only (no graphical interface)
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 👤 Author
+
+Created with 💻 by [ClanyX](https://github.com/ClanyX)
